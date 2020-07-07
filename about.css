@@ -1,0 +1,83 @@
+.rounded {
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 50%;
+    padding: 1px;
+    border: 2px solid rgb(88, 75, 75);
+    background: linear-gradient(red)
+}
+
+.main {
+    display: flex;
+    align-items: stretch;
+}
+
+.sidebar {
+    border-right: 1px solid rgb(54, 54, 54);
+    border-right-style: solid;
+    padding: 100px;
+    padding-top: 70px;
+    padding-bottom: 1100px;
+    margin-right: 50px;
+    margin-left:50px;
+    margin-top: 5px;
+    line-height: 25px;
+    font-size: 20px;
+
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.sidebar :hover {
+    text-decoration-line: none;
+    color: grey;
+}
+
+.content {
+    width: 500px;
+    flex-direction: row;
+}
+
+.single-img {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+}
+
+.content-right side{
+    float: left;
+}
+
+.trial {
+    display: flex;
+    text-align: left;
+    position: relative;
+    right: 40px;
+    line-height: 30px;
+}
+
+ul {
+list-style: none;
+}
+
+body {
+    background: url("yellow-background.jpg");
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
+
+.description {
+    font-weight: bold;
+}
+
+.text-area {
+    width: 550px;
+    height: 300px;
+    border: 1px solid transparent;
+    word-wrap: break-word;
+    text-indent: 20px;
+    line-height: 20px;
+}
